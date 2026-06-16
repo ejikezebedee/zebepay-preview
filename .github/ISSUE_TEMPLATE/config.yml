@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Zebepay private access gate
+    url: https://github.com/ejikezebedee/zebepay-preview/blob/main/docs/GITHUB_BUYER_ACCESS_MODEL.md
+    about: Review the access requirements before requesting private source access.

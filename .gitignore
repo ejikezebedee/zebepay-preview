@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+*.log
+*.pid
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+tmp/
+runtime/
+.runtime/
+*.zip
+*.sha256

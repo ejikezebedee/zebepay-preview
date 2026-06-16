@@ -1,0 +1,54 @@
+name: Zebepay deal request
+description: Request controlled private review or commercial source-code access.
+title: "Deal request: "
+labels:
+  - deal-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post secrets, credentials, bank data, customer data, BVN/NIN values, or confidential documents.
+  - type: input
+    id: buyer
+    attributes:
+      label: Buyer or company name
+    validations:
+      required: true
+  - type: input
+    id: github
+    attributes:
+      label: Buyer GitHub username or organization
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Intended use case
+    validations:
+      required: true
+  - type: input
+    id: market
+    attributes:
+      label: Country or market
+    validations:
+      required: true
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package needed
+      options:
+        - Code review access
+        - Source code buyer package
+        - White-label and setup support
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget range
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: Support or customization needed
