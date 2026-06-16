@@ -74,14 +74,13 @@ https://github.com/ejikezebedee/zebepay-preview/issues/new?template=deal-request
 
 Review `sales/DEAL_REQUEST.md` first, then submit:
 
-- Company or buyer name.
-- Intended use case.
-- Country or market.
-- Package needed.
-- License need.
-- Timeline.
-- Budget range.
-- Whether custom implementation support is required.
+- Buyer category.
+- General use case.
+- Package interest.
+- Request for private contact.
+
+For serious commercial discussions, use the approved private email/form after
+the initial request.
 
 ## Full Access Rule
 
@@ -89,5 +88,6 @@ This preview repository is for buyer confidence only. Full source-code access is
 delivered through the private `zebepay` repository only after all access
 conditions are satisfied.
 
-Do not post passwords, private keys, API tokens, bank credentials, BVN/NIN
-values, customer data, or confidential documents in a public GitHub issue.
+Do not post passwords, private keys, API tokens, bank/provider details, budget,
+confidential company strategy, BVN/NIN values, customer data, private
+documents, or internal infrastructure details in a public GitHub issue.

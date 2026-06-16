@@ -6,25 +6,26 @@ Use this guide before opening a public deal request.
 
 Include:
 
-- Buyer or company name.
-- Buyer GitHub username or organization.
-- Intended use case.
-- Country or market.
-- Preferred package tier.
-- Timeline.
-- Budget range.
-- Whether setup, deployment, provider integration, or white-label support is
-  needed.
+- Buyer category.
+- General use case.
+- Package interest.
+- Request for private contact.
+
+For serious commercial discussions, use the approved private email/form after
+the initial request.
 
 Do not share:
 
 - Passwords.
 - Private keys.
 - API tokens.
-- Bank credentials.
+- Bank/provider details.
 - BVN/NIN values.
 - Customer data.
+- Budget range.
+- Confidential company strategy.
 - Confidential contracts.
+- Private documents.
 - Internal infrastructure details.
 
 ## Package Tiers

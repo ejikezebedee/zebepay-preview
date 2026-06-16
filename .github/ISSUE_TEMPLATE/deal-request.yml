@@ -1,5 +1,5 @@
 name: Zebepay deal request
-description: Request controlled private review or commercial source-code access.
+description: Request private commercial contact without posting confidential details.
 title: "Deal request: "
 labels:
   - deal-request
@@ -7,48 +7,43 @@ body:
   - type: markdown
     attributes:
       value: |
-        Do not post secrets, credentials, bank data, customer data, BVN/NIN values, or confidential documents.
-  - type: input
-    id: buyer
+        This public request is only for safe initial routing. Do not post budget, confidential company strategy, bank/provider details, private documents, customer data, credentials, BVN/NIN values, or infrastructure details. For serious commercial discussions, use the approved private email/form after the initial request.
+  - type: dropdown
+    id: buyer_category
     attributes:
-      label: Buyer or company name
-    validations:
-      required: true
-  - type: input
-    id: github
-    attributes:
-      label: Buyer GitHub username or organization
+      label: Buyer category
+      options:
+        - Founder or startup
+        - Agency or software firm
+        - Cooperative or financial group
+        - Licensed financial operator
+        - Investor or acquisition reviewer
+        - Other commercial buyer
     validations:
       required: true
   - type: textarea
     id: use_case
     attributes:
-      label: Intended use case
-    validations:
-      required: true
-  - type: input
-    id: market
-    attributes:
-      label: Country or market
+      label: General use case
+      description: Keep this high-level. Do not include confidential plans, provider details, customer data, or private documents.
     validations:
       required: true
   - type: dropdown
-    id: package
+    id: package_interest
     attributes:
-      label: Package needed
+      label: Package interest
       options:
         - Code review access
         - Source code buyer package
         - White-label and setup support
-    validations:
-      required: true
-  - type: input
-    id: budget
-    attributes:
-      label: Budget range
+        - Not sure yet
     validations:
       required: true
   - type: textarea
-    id: support
+    id: private_contact
     attributes:
-      label: Support or customization needed
+      label: Request for private contact
+      description: Ask for the approved private email/form. Do not post private documents or sensitive details here.
+      placeholder: Please send the approved private contact path for serious commercial discussion.
+    validations:
+      required: true
